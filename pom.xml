@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>gt.edu.cunoc</groupId>
-	<artifactId>epsBackend</artifactId>
+	<artifactId>epsMiddleWare</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>epsBackend</name>
-	<description>eps project backend</description>
+	<name>epsMiddleWare</name>
+	<description>eps project middlewar</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -55,7 +55,7 @@
 <!--                                Descomentar para pruebas en AWS-->
                                 <username>${env.USER_NAME}</username>
                                 <password>${env.ACCESS_TOKEN}</password>
-                                <path>/epsBackend</path>
+                                <path>/epsMiddlewar</path>
                             </configuration>
                         </plugin>
 		</plugins>
