@@ -17,7 +17,7 @@ public class HelloWorldController {
     
     @RequestMapping("/")
     public String hello() {
-        return "Hola mundo middlewar!!";
+        return "Hola mundo middlewar con cache!!";
     }
     
 }
